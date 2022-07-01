@@ -1,0 +1,27 @@
+*{
+  box-sizing:border-box;
+ }
+ body {
+ margin:0;
+ font-style:normal;
+ font-weight:normal;
+ color: #000;
+ }
+ .container{
+ max-width:1240px;
+ width: 100%;
+ padding: 0px 30px;
+ margin:0 auto;
+ }
+ 
+ .visually-hidden{
+ position:absolute;
+ width:1px;
+ height:1px;
+ margin:-1px;
+ padding:0;
+ overflow:hidden;
+ border:0;
+ clip: rect(0 0 0 0);
+ }
+ 
